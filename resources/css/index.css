@@ -1,0 +1,74 @@
+html {
+    background-color: #1c1c1c;
+    color: white;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0 3rem;
+}
+
+header {
+    background-color: beige;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navigation {
+    background-color: blue;
+    width: 40%;
+}
+
+.navigation-list {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.navigation li {
+    display: inline-flex;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    /* color: white; */
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 50px; */
+}
+
+
+.intro {
+    /* display: flex;
+    flex-direction: column; */
+    width: 50%;
+}
+
+.intro span {
+    color: #ff5403;
+}
+
+.intro-title {
+    color: #84a1ff;
+}
+
+.profile-picture {
+    width: 40%;
+}
+
+.know-more {
+    color: #ff5403;
+}
+
+.outline-link {
+    position: relative;
+    top: 5px;
+}
