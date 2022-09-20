@@ -1,5 +1,5 @@
 html {
-    background-color: #1c1c1c;
+    background-color: beige;
     color: white;
 }
 
@@ -7,10 +7,12 @@ body {
     margin: 0 auto;
     max-width: 900px;
     padding: 0 3rem;
+    background-color: #1c1c1c;
+    font-size: 20;
 }
 
 header {
-    background-color: beige;
+    /* background-color: beige; */
     height: 5rem;
     display: flex;
     align-items: center;
@@ -19,33 +21,48 @@ header {
 }
 
 .navigation {
-    background-color: blue;
+    /* background-color: blue; */
     width: 40%;
 }
 
 .navigation-list {
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     justify-content: space-between;
     padding: 0;
 }
 .navigation li {
     display: inline-flex;
-    font-weight: bold;
+    font-size: large;
+    font-weight: bolder;
 }
 
 a {
     text-decoration: none;
-    /* color: white; */
+    color: white;
 }
 
-main {
+.intro-section {
     display: flex;
     justify-content: space-between;
     /* padding-left: 50px; */
 }
 
+.about-section {
+    display: flex;
+    text-align: justify;
+}
 
+.project-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #ff5403;
+    color: white;
+
+}
 .intro {
     /* display: flex;
     flex-direction: column; */
@@ -64,8 +81,9 @@ main {
     width: 40%;
 }
 
-.know-more {
+.link {
     color: #ff5403;
+    font-size: large;
 }
 
 .outline-link {
